@@ -1,0 +1,102 @@
+tr:nth-child(even){
+    background-color: #F5F7F7;
+}
+.table{
+    max-width: 95% !important;
+    margin: 0px auto;
+}
+
+
+th{
+    padding: 10px 8px 10px 8px !important;
+    font-family: "Raleway";
+    text-align: center;
+}
+
+td{
+    padding: 8px !important;
+}
+
+.action-icons{
+    padding: 5px;
+    width: 100px;
+}
+
+.header{
+    display: flex;
+    margin-bottom: 0px !important;
+    padding: 10px 35px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.back-button1{
+    display: block;
+     padding:10px 30px !important;
+    font-size: 17px; 
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.add-button{
+    position:static !important;
+    /* right: 40px; */
+    padding: 10px 30px;
+    font-size: 17px;
+    font-family: "Raleway";
+    overflow: hidden;
+    box-shadow:5px 5px 3px gray ;
+    transition: all ease-in-out 0.1s;
+}
+.add-button:hover{
+   transform: translate(5px,5px);
+   box-shadow: none;
+}
+
+.add-button i{
+    padding-right: 5px;
+
+}
+
+.actions-column{
+    width: 5%;
+    min-width: 70px;
+}
+.bi::before{
+    display: inline !important;
+}
+.text{
+    color: #000000;
+    font-family: "Raleway";
+}
+
+.header h3{
+    font-family: "Raleway";
+    font-size: 35px;
+    color: #333;
+    font-weight: 600;
+}
+.btn{
+    font-family: "Raleway";
+}
+/* CUSTOM STYLES */
+    /* ROLE STYLING */
+    .thead tr.role-table-heading th{
+        font-size: 22px;
+    }
+    .actions-column{
+        padding: 10px 40px !important;
+    }
+    .actions-column i{
+        font-size: 25px;
+        padding: 0px 10px;
+    }
+
+    /* PROJECT BIDDING STYLING */
+
+.biddingAction{
+    font-size: 25px;
+}
+.table.th{
+    margin: 0%;
+}

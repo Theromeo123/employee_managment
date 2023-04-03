@@ -1,0 +1,40 @@
+.nav{
+    background-color: #ffffff;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    background-color: #555;
+    /* box-shadow: 0 5px 15px black; */
+    height: 90px;
+}
+
+.nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    position: relative;
+}
+
+.btn {
+    border: none;
+    border-radius: 50px;
+    background-color: inherit;
+    padding: 30px 30px;
+    font-size: 50px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Raleway";
+  }
+
+  .btn:hover {background: #838EED;}
+.default {color: black;}
+
+.a{
+    font-family: "Raleway";
+    font-size: 10px;
+    color : black;
+}

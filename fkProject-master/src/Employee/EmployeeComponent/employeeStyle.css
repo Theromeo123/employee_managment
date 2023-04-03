@@ -1,0 +1,103 @@
+
+/* UTILITY CLASSES */
+
+.add-btn007{
+    background-color: #555;
+    color: #fff;
+    padding: 5px 25px;
+    outline: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+
+
+/* Educational details Styling */
+.component{
+     width: 95%;
+    margin: 0px auto;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 0px 0px;
+}
+
+
+table.edu-table {
+    width: 100% !important;
+    border-collapse:separate;
+    border:solid black 1px;
+    border-radius:10px;
+    margin-top: 30px;
+}
+
+td, th {
+    border-left:solid black 1px;
+    border-top:solid black 1px;
+}
+
+th {
+    border-top: none;
+    color: gray;
+    background-color: rgb(239, 244, 244);
+    text-align: center;
+}
+
+td:first-child, th:first-child {
+     border-left: none;
+}
+
+.edu-action-main{
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-around; */
+    gap: 20%;
+}
+.edu-action{
+    font-size: 35px;
+}
+.edu-table thead tr{
+    font-size: 22px;
+}
+tr.box td{
+    font-size: 24px;
+}
+.form-detail {
+    width: 70%;
+    height: auto;
+    /* margin: 1.5rem auto; */
+    margin: 1.5em 8rem
+}
+
+form {
+    /* position: relative; */
+    margin: 0;
+    width: 100%;
+    font-size: 15px;
+}
+
+input[type=text],
+input[type=date],
+select,
+textarea {
+    width: 85%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    /* margin-top: 6px; */
+    margin-bottom: 16px;
+
+    resize: vertical;
+}
+
+/* EMPLOYEE WORK EXPERIENCE STYLING*/
+.wrk-exp{
+    padding: 10px 0px !important;
+    margin-top: 20px;
+}
+.wrk-exp-table{
+    width: 100%;
+    margin-top: 25px;
+}

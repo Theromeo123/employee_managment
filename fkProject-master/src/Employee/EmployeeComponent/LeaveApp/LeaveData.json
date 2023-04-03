@@ -1,0 +1,11 @@
+[
+    {
+        "id": "1",
+        "leaveType": "Casual Leave",
+        "fromDate": "2021-02-08",
+        "toDate": "2021-02-20",
+        "reasonForLeave": "dche",
+        "status": "Approved",
+        "": "<BiEdit  /><MdDelete />"
+    }
+]

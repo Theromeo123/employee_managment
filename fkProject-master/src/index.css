@@ -1,0 +1,155 @@
+:root {
+    --primary: black;
+    --dark: #E65137;
+    --gray: #E65137;
+    --light: white;
+}
+
+
+    /* body{
+        padding: 40px;
+    } */
+
+
+
+
+.side-nav-container {
+    background-color: #E65137;
+	width: 300px;
+	height: 100vh;
+	position: relative;
+	color: var(--light);
+    margin-left: 0;
+
+    transition: 0.4s;
+}
+
+.side-nav-container-NX {
+    width: 210px;
+}
+.nav-upper,
+.nav-heading, nav-menu, menu-item {
+    display: grid;
+}
+
+.nav-heading {
+    grid-template-columns: 2fr,1fr;
+    grid-template-rows: 1fr;
+    height: 75px;
+}
+
+.nav-brand{
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-brand img {
+    margin-top: 10px;
+    height: 40px;
+    width: 40px;
+    padding: 0 10px;
+}
+
+.hamburger{
+    position: absolute;
+    right: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 65px -35px;
+    background-color: black;
+    border: 2px solid var(--light);
+    padding: 15px;
+    border-radius: 90px;
+    height: 60px;
+    width: 65px;
+}
+
+.hamburger span {
+    display: block;
+    margin-top: 5px;
+    background-color: var(--light);
+    border-radius: 15px;
+    height: 4px;
+    width: 30px;
+    transition: 0.4s;
+}
+
+.hamburger:hover span{
+    margin: auto;
+}
+
+.hamburger-in:hover span:nth-child(1) {
+    width: 25px;
+    transform: translate(-3px, 8px) rotate(30deg);
+}
+.hamburger-in:hover span:nth-child(2) {
+    display: none;
+}
+.hamburger-in:hover span:nth-child(3) {
+    width: 25px;
+    transform: translate(-3px, -8px) rotate(-30deg);
+}
+
+.hamburger-out:hover span:nth-child(1) {
+    width: 25px;
+    transform: translate(0px, 8px) rotate(-30deg);
+}
+.hamburger-out:hover span:nth-child(2) {
+    display: none;
+}
+.hamburger-out:hover span:nth-child(3) {
+    width: 25px;
+    transform: translate(0px, -8px) rotate(30deg);
+}
+
+.nav-menu {
+    grid-template-rows: repeat(7, 1fr);
+    margin-top: 50px;
+}
+
+.menu-item {
+    height: 40px;
+    width: 14rem;
+    display: flex;
+    color: var(--light);
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: auto 20px;
+    border-radius: 10px;
+    position: relative;
+    padding: 4px;
+    font-size: 15px;
+    font-family: "Raleway";
+}
+
+.menu-item:hover {
+    color: black;
+}
+
+.menu-item img {
+    width: 35px;
+    height: 35px;
+    padding: 0 20px;
+}
+
+.menu-item-NX {
+    margin: auto;
+    width: 4.5rem;
+}
+
+
+.h3{
+    font-family: "Raleway";
+}
+.fa
+{
+    font-size:30px;
+    color:"red";
+}
+.fas
+{
+    font-size:30px;
+    color:"red";
+}
